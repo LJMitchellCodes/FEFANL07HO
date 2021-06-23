@@ -1,0 +1,52 @@
+h1 {
+    color: rgb(230, 222, 222);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4em;
+}
+
+nav{
+    background-color: aliceblue;
+}
+
+#header {
+    text-align: center;
+}
+.btn {
+    position: relative;
+    display: inline-block;
+    margin: 40px auto;
+    padding: 1%;
+
+    overflow: hidden;
+
+    border-width: 0px;
+    border-radius: 35px;
+
+    background-color:oldlace;
+    color:black;
+    font-size: 1.0em;
+    text-decoration: none;
+
+    transition: background-color 0.3s;
+}
+
+.btn > * {
+    position: relative;
+    
+}
+
+.btn span {
+    display: block;
+    padding: 12px 24px;
+}
+
+
+.btn:hover,
+.btn:focus {
+    background-color: lightblue;
+}
+.active {
+    color: tan;
+
+}
